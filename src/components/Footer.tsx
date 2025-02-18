@@ -1,5 +1,4 @@
-import React from "react";
-import { Github, Linkedin, Mail, MessageCircle } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -77,18 +76,11 @@ const Footer = () => {
                 <Linkedin size={20} />
               </a>
               <a
-                href="mailto:rafly.purnomo08@gmail.com"
+                target="_blank"
+                href="https://mail.google.com/mail/?view=cm&to=rafly.purnomo08@gmail.com"
                 className="p-3 bg-white rounded-full shadow-md hover:shadow-lg text-gray-600 hover:text-blue-600 transition-all duration-300 transform hover:-translate-y-1"
               >
                 <Mail size={20} />
-              </a>
-              <a
-                href="https://api.whatsapp.com/send/?phone=6281385042192&text&type=phone_number&app_absent=0"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-3 bg-white rounded-full shadow-md hover:shadow-lg text-gray-600 hover:text-blue-600 transition-all duration-300 transform hover:-translate-y-1"
-              >
-                <MessageCircle size={20} />
               </a>
             </div>
           </div>

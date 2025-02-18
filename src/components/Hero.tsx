@@ -1,11 +1,5 @@
 import { motion } from "framer-motion";
-import {
-  Github,
-  Linkedin,
-  Mail,
-  ChevronDown,
-  MessageCircle,
-} from "lucide-react";
+import { Github, Linkedin, Mail, ChevronDown } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -68,18 +62,11 @@ const Hero = () => {
               <Linkedin size={24} />
             </a>
             <a
-              href="mailto:rafly.purnomo08@gmail.com"
+              target="_blank"
+              href="https://mail.google.com/mail/?view=cm&to=rafly.purnomo08@gmail.com"
               className="p-4 rounded-full bg-white shadow-lg hover:shadow-xl text-gray-600 hover:text-blue-600 transition-all duration-300 transform hover:-translate-y-1"
             >
               <Mail size={24} />
-            </a>
-            <a
-              href="https://api.whatsapp.com/send/?phone=6281385042192&text&type=phone_number&app_absent=0"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-4 rounded-full bg-white shadow-lg hover:shadow-xl text-gray-600 hover:text-blue-600 transition-all duration-300 transform hover:-translate-y-1"
-            >
-              <MessageCircle size={24} />
             </a>
           </motion.div>
 

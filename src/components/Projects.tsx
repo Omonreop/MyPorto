@@ -9,18 +9,25 @@ import "swiper/css/pagination";
 
 const projects = [
   {
-    title: "Company Profile",
+    title: "Codeigniter E-Commerce",
     description:
-      "Business website with a product catalog and a product CRUD system. by utilizing server-side tools like Express and Node.js, along with MongoDB for the database and EJS for templates.",
-    images: ["/bd-1.png", "/bd-2.png", "/bd-3.png"],
-    tech: ["EJS", "Express", "MonggoDB", "Node.js"],
+      "E-commerce web built with codeigniter, has features of managing products, users, categories, orders, payments, and user roles.",
+    images: ["/CI-1.png", "/CI-3.png", "/CI-2.png", "/CI-4.png", "/CI-6.png"],
+    tech: ["PHP", "Codeigniter", "MySql", "Bootstrap"],
   },
   {
     title: "Desktop Aplication",
     description:
       "A desktop application intended to facilitate the recording, storing, and printing of handietalkie repair data.",
     images: ["/bidtik-1.png", "/bidtik-2.png", "/bidtik-3.png"],
-    tech: ["Java", "Java Swing", "MySQL", "Net"],
+    tech: ["Java", "Java Swing", "MySQL", "NetBeans"],
+  },
+  {
+    title: "Company Profile",
+    description:
+      "Business website with a product catalog and a product CRUD system. by utilizing server-side tools like Express and Node.js, along with MongoDB for the database and EJS for templates.",
+    images: ["/bd-1.png", "/bd-2.png", "/bd-3.png"],
+    tech: ["EJS", "Express", "MonggoDB", "Node.js"],
   },
   {
     title: "IoT Project",
@@ -57,7 +64,7 @@ const Projects = () => {
           </h2>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3  gap-8  ">
           {projects.map((project, index) => (
             <motion.div
               key={index}
@@ -65,7 +72,7 @@ const Projects = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.2 }}
-              className="bg-white rounded-xl shadow-lg overflow-hidden"
+              className="bg-white  rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2"
             >
               <Swiper
                 modules={[Navigation, Pagination]}
