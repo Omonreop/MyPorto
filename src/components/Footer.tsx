@@ -76,7 +76,6 @@ const Footer = () => {
                 <Linkedin size={20} />
               </a>
               <a
-                target="_blank"
                 href="mailto:rafly.purnomo08@gmail.com"
                 className="p-3 bg-white rounded-full shadow-md hover:shadow-lg text-gray-600 hover:text-blue-600 transition-all duration-300 transform hover:-translate-y-1"
               >

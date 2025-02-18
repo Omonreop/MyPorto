@@ -62,7 +62,6 @@ const Hero = () => {
               <Linkedin size={24} />
             </a>
             <a
-              target="_blank"
               href="mailto:rafly.purnomo08@gmail.com"
               className="p-4 rounded-full bg-white shadow-lg hover:shadow-xl text-gray-600 hover:text-blue-600 transition-all duration-300 transform hover:-translate-y-1"
             >
