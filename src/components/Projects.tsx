@@ -9,6 +9,13 @@ import "swiper/css/pagination";
 
 const projects = [
   {
+    title: "MEVN Stack Store",
+    description:
+      "build a fullstack web, client side with Vue.js, and server side with node.js, express.js, and mongoDB.",
+    images: ["/mevn-1.png", "/mevn-2.png", "/mevn-3.png"],
+    tech: ["MongoDB", "Express", "Vue", "Node"],
+  },
+  {
     title: "BestPoints",
     description:
       "website built with node, express, mongoDB, and ejs template engine. has authentication, authorization, CRUD, and place review features.",
