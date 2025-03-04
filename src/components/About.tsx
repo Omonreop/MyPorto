@@ -35,7 +35,7 @@ const About = () => {
             </div>
 
             <div className="space-y-6">
-              <p className="text-lg text-gray-700 leading-relaxed">
+              <p className="text-lg text-gray-700 text-justify ">
                 Hello, I am a graduate of Bina Sarana Informatika University
                 with a specialization in computer technology. I love learning
                 new things and am detail-oriented and aspire to work in the

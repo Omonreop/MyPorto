@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center bg-gradient-to-b from-blue-50 via-white to-white relative overflow-hidden"
+      className="min-h-screen flex items-center justify-center bg-gradient-to-b from-blue-100 via-white to-white relative overflow-hidden"
     >
       {/* Background Decoration */}
       <div className="absolute inset-0 overflow-hidden">

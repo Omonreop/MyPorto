@@ -9,6 +9,19 @@ import "swiper/css/pagination";
 
 const projects = [
   {
+    title: "BestPoints",
+    description:
+      "website built with node, express, mongoDB, and ejs template engine. has authentication, authorization, CRUD, and place review features.",
+    images: [
+      "/bestpoint-1.png",
+      "/bestpoint-2.png",
+      "/bestpoint-3.png",
+      "/bestpoint-4.png",
+      "/bestpoint-5.png",
+    ],
+    tech: ["NodeJs", "Express", "MongoDB", "Bootstrap", "EJS"],
+  },
+  {
     title: "Codeigniter E-Commerce",
     description:
       "E-commerce web built with codeigniter, has features of managing products, users, categories, orders, payments, and user roles.",
@@ -16,18 +29,18 @@ const projects = [
     tech: ["PHP", "Codeigniter", "MySql", "Bootstrap"],
   },
   {
-    title: "Desktop Aplication",
-    description:
-      "A desktop application intended to facilitate the recording, storing, and printing of handietalkie repair data.",
-    images: ["/bidtik-1.png", "/bidtik-2.png", "/bidtik-3.png"],
-    tech: ["Java", "Java Swing", "MySQL", "NetBeans"],
-  },
-  {
     title: "Company Profile",
     description:
       "Business website with a product catalog and a product CRUD system. by utilizing server-side tools like Express and Node.js, along with MongoDB for the database and EJS for templates.",
     images: ["/bd-1.png", "/bd-2.png", "/bd-3.png"],
     tech: ["EJS", "Express", "MonggoDB", "Node.js"],
+  },
+  {
+    title: "Desktop Aplication",
+    description:
+      "A desktop application intended to facilitate the recording, storing, and printing of handietalkie repair data.",
+    images: ["/bidtik-1.png", "/bidtik-2.png", "/bidtik-3.png"],
+    tech: ["Java", "Java Swing", "MySQL", "NetBeans"],
   },
   {
     title: "IoT Project",

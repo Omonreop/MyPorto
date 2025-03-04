@@ -5,18 +5,6 @@ import { Briefcase, Calendar, Building2 } from "lucide-react";
 
 const experiences = [
   {
-    role: "Operators and Admin",
-    company: "CV. BDSHOOP Vespa",
-    period: "April 2021 - Present",
-    descriptions: [
-      "Restocking and recording incoming goods to the warehouse and inputting data on available goods in e-commerce",
-      "Advertise products on social media.",
-      "Serve customer transactions that make purchases through e-commerce.",
-      "Packing goods according to customer orders and sending ordered goods to logistics outlets.",
-      "Create a company website that includes a product catalog and a CRUD system for. products. By using server-side technologies like Node.js and Express, as well as EJS for templating and MongoDB for the database.",
-    ],
-  },
-  {
     role: "IT Support Internship",
     company: "BIDTIK Polda Metro Jaya",
     period: "September 2023 - December 2023",
@@ -26,12 +14,15 @@ const experiences = [
     ],
   },
   {
-    role: "Production Operator",
-    company: "PT. Mayareksa Indonesia",
-    period: "September 2020 - February 2021",
+    role: "Operators and Admin",
+    company: "CV. BDSHOOP Vespa",
+    period: "April 2021 - Present",
     descriptions: [
-      "Assemble molding parts (top plate, cavity plate, core plate, ejector plate, ejector retainer x plate, bottom plate, etc.), and test the machine.",
-      "Operate and supervise cnc machines in accordance with production stages.",
+      "Restocking and recording incoming goods to the warehouse and inputting data on available goods in e-commerce",
+      "Advertise products on social media.",
+      "Serve customer transactions that make purchases through e-commerce.",
+      "Packing goods according to customer orders and sending ordered goods to logistics outlets.",
+      "Create a company website that includes a product catalog and a CRUD system for. products. By using server-side technologies like Node.js and Express, as well as EJS for templating and MongoDB for the database.",
     ],
   },
 ];
