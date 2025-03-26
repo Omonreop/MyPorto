@@ -9,6 +9,12 @@ import "swiper/css/pagination";
 
 const projects = [
   {
+    title: "Finance Tracker",
+    description: "Financial data recording website built using nuxt js",
+    images: ["/ft-1.png", "/ft-2.png", "/ft-3.png"],
+    tech: ["NuxtJs", "NuxtUI", "Vue", "Supabase"],
+  },
+  {
     title: "MEVN Stack Store",
     description:
       "build a fullstack web, client side with Vue.js, and server side with node.js, express.js, and mongoDB.",
