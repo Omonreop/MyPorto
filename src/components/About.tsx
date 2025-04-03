@@ -24,13 +24,13 @@ const About = () => {
             </span>
           </h2>
 
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="grid md:grid-cols-2 gap-12 items-start">
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-tr from-blue-600 to-teal-500 rounded-2xl transform rotate-6 blur-lg opacity-20" />
               <img
-                src="/Profile.jpg"
+                src="img/profile.jpg"
                 alt="Profile"
-                className="rounded-2xl shadow-xl w-full relative z-10"
+                className="rounded-2xl shadow-xl w-full h-auto relative z-10"
               />
             </div>
 
