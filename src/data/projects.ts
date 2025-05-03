@@ -100,7 +100,11 @@ const projects: Project[] = [
     title: "Desktop Aplication",
     description:
       "A desktop application intended to facilitate the recording, storing, and printing of handietalkie repair data.",
-    images: ["img/bidtik-1.png", "img/bidtik-2.png", "img/bidtik-3.png"],
+    images: [
+      "img/bidtik/bidtik-1.png",
+      "img/bidtik/bidtik-2.png",
+      "img/bidtik/bidtik-3.png",
+    ],
     tech: ["Java", "Java Swing", "MySQL", "NetBeans"],
   },
 ];
