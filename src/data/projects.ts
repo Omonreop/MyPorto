@@ -8,6 +8,23 @@ export interface Project {
 
 const projects: Project[] = [
   {
+    title: "MERN STACK",
+    description:
+      "A website for booking and creating events, which features authentication, and account activation via email. ticket, category, and event management, integrated payment via midtrans. uploading images to cloudinary. using tailwind for the front view.",
+    images: [
+      "img/rpacara/rpacara-0.png",
+      "img/rpacara/rpacara-1.png",
+      "img/rpacara/rpacara-2.png",
+      "img/rpacara/rpacara-3.png",
+      "img/rpacara/rpacara-5.png",
+      "img/rpacara/rpacara-6.png",
+      "img/rpacara/rpacara-7.png",
+      "img/rpacara/rpacara-8.png",
+    ],
+    tech: ["MongoDB", "Express", "React", "NodeJs", "Midtrans", "NextJs"],
+    url: "https://rpacara.vercel.app/",
+  },
+  {
     title: "Code Flix",
     description:
       "There are several features, auth, plan and membership, membership checker with notifications, and payment gateway with midtrans.",
